@@ -4,4 +4,6 @@ Student s2 = new Student("Patrick", 02, 28);
 
 List<Student> students = new List<Student>();
 students.Add(s1);
-students.Add(s2);   
+students.Add(s2);
+
+foreach()

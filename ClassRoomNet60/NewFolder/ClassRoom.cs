@@ -1,8 +1,8 @@
 ﻿public class ClassRoom
 {
-    string ClassName { get; set; }
-    List<Student> students;
-    DateTime SemesterStart { get; set; } 
+     public string ClassName { get; set; }
+    public List<Student> students { get; }
+   public DateTime SemesterStart { get; set; } 
 
     public ClassRoom(string className , DateTime semesterStart)
     {

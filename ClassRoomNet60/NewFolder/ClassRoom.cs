@@ -2,7 +2,7 @@
 {
     string ClassName { get; set; }
     List<Student> students;
-    DateTime SemesterStart;
+    DateTime SemesterStart { get; set; } 
 
     public ClassRoom(string className , DateTime semesterStart)
     {
